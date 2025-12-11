@@ -1,0 +1,37 @@
+## Visual Studio 2015/2017/2019/2022 ##
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.slnx
+
+## Visual Studio ##
+*.suo
+*.user
+*.csproj.user
+*.cache
+bin/
+obj/
+*.pdb
+*.exe
+*.dll
+*.vshost.*
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+
+## User files ##
+*.userprefs
+
+## Build results ##
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
