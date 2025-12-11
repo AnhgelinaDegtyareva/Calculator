@@ -44,7 +44,7 @@ namespace SimpleCalculator
             buttonPercent.Click += ButtonPercent_Click;
 
             // Настраиваем окно
-            this.KeyPreview = true; 
+            this.KeyPreview = true;
         }
 
         // ОБРАБОТЧИК для всех ЦИФРОВЫХ кнопок (0-9)
@@ -262,6 +262,16 @@ namespace SimpleCalculator
             }
 
             e.Handled = true;
+        }
+
+        private void textBoxHistory_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
